@@ -25,7 +25,6 @@ macro_rules! my_vec {
 // 1. $($x:expr), + 匹配一个或多个表达式, 用逗号分隔
 // 2. $(,)? 匹配一个逗号, 问号表示可选
 
-
 #[macro_export]
 macro_rules! my_vec2 {
     () => {
